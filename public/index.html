@@ -1,0 +1,499 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="author" content="Lakshay Jain">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Lakshay Jain - Software Engineer</title>
+    <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="mediaqueries.css" />
+    <link rel="icon" type="image/x-icon" href="assets/L_icon.ico">
+
+    <!-- Theme Color for Mobile Browser -->
+    <meta name="theme-color" content="#ffffff">
+
+    <!-- SEO Robots -->
+    <meta name="robots" content="index, follow">
+
+    <!-- Canonical URL -->
+    <link rel="canonical" href="https://devlakshay.web.app/">
+
+    <!-- Primary Meta Tags -->
+  <meta name="keywords"
+  content="Kotlin Developer, Innovator, Lakshay Jain, Developer Lakshay Jain, app developer, digital Marketing, Android Developer, software developer, Chess Champion, Software development, Web development, Mobile development, college student, Portfolio">
+
+<meta name="title" content="Lakshay Jain - Software Developer">
+<meta name="description" content="Welcome to the personal portfolio of Lakshay Jain, a passionate software engineer, Android Developer, and tech enthusiast. Explore my projects, skills, and achievements.">
+
+
+<!-- Facebook Open Graph -->
+<meta property="og:title" content="Lakshay Jain - Portfolio | Software Engineer & Android Developer">
+<meta property="og:description" content="Welcome to the personal portfolio of Lakshay Jain, a passionate Software Engineer, Android Developer, and tech enthusiast. Explore my projects, skills, and achievements.">
+<meta property="og:image" content="./assets/profile-pic.jpeg">
+<meta property="og:url" content="https://devlakshay.web.app/">
+<meta property="og:type" content="website">
+
+<!-- Twitter Cards -->
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:title" content="Lakshay Jain - Portfolio | Software Engineer & Android Developer">
+<meta name="twitter:description" content="Explore my projects, skills, and achievements.">
+<meta name="twitter:image" content="./assets/profile-pic.jpeg">
+<meta name="twitter:site" content="@lakshayjainfzr">
+
+  <!-- who is lakshay jain -->
+  <script type="application/ld+json"> 
+    {
+      "@context": "https://schema.org",
+      "@type": "FAQPage",
+      "mainEntity": [{
+        "@type": "Question",
+        "name": "What is a personal portfolio website?",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "A personal portfolio website is a digital platform that showcases your professional work, skills, and accomplishments. It serves as a centralized hub where you can exhibit your projects, artwork, resume, and other relevant information to potential employers, clients, or collaborators."
+        }
+      },{
+        "@type": "Question",
+        "name": "Why do I need a personal portfolio website?",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "Having a personal portfolio website allows you to establish a strong online presence and showcase your work to a wider audience. It serves as a visual representation of your skills, expertise, and achievements, making it easier for others to evaluate your suitability for job opportunities or creative projects."
+        }
+      },{
+        "@type": "Question",
+        "name": "Is it essential to include a resume on my portfolio website?",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "While including a downloadable resume is not mandatory, it's highly recommended. Some visitors may prefer a printable version of your resume for reference or to share with others. It also shows that you are well-prepared and organized."
+        }
+      },{
+        "@type": "Question",
+        "name": "Should I include personal projects on my portfolio website?",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "Yes, including personal projects can be beneficial, especially if they showcase your creativity, problem-solving skills, or passion for your field. Personal projects can also help fill gaps in your portfolio when you have limited professional experience."
+        }
+      },{
+        "@type": "Question",
+        "name": "How can I contact you?",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "You can contact me by email at [email protected] or by phone at +1 555 555 5555."
+        }
+      },{
+        "@type": "Question",
+        "name": "What are my most recent projects?",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "I recently built a website for a local business and did search engine optimization for them, designed a logo for a non-profit organization,  and made posters for my college website."
+        }
+      },{
+        "@type": "Question",
+        "name": "What are my areas of expertise?",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "I am an expert in web development,android development,cross platform, graphic design, and digital marketing."
+        }
+      },{
+        "@type": "Question",
+        "name": "What programming languages do you know?",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "I am proficient in HTML, CSS, JavaScript, PHP, Python, and Java."
+        }
+      },{
+        "@type": "Question",
+        "name": "What frameworks and libraries do you use?",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "I am familiar with a variety of frameworks and libraries, including React and Flutter."
+        }
+      }]
+    }
+    </script>
+
+  </head>
+  <body>
+    <nav id="desktop-nav">
+      <div class="logo">Lakshay Jain</div>
+      <div>
+        <ul class="nav-links">
+          <li><a href="#about">About</a></li>
+          <li><a href="#experience">Experience</a></li>
+          <li><a href="#projects">Projects</a></li>
+          <li><a href="#contact">Contact</a></li>
+        </ul>
+      </div>
+    </nav>
+    <nav id="hamburger-nav">
+      <div class="logo">Lakshay Jain</div>
+      <div class="hamburger-menu">
+        <div class="hamburger-icon" onclick="toggleMenu()">
+          <span></span>
+          <span></span>
+          <span></span>
+        </div>
+        <div class="menu-links">
+          <li><a href="#about" onclick="toggleMenu()">About</a></li>
+          <li><a href="#experience" onclick="toggleMenu()">Experience</a></li>
+          <li><a href="#projects" onclick="toggleMenu()">Projects</a></li>
+          <li><a href="#contact" onclick="toggleMenu()">Contact</a></li>
+        </div>
+      </div>
+    </nav>
+    <section id="profile">
+      <div class="section__pic-container">
+        <img src="./assets/profile-pic.JPG" alt="Lakshay Jain profile picture" />
+      </div>
+      <div class="section__text">
+        <p class="section__text__p1">Hello, I'm</p>
+        <h1 class="title">Lakshay Jain</h1>
+        <p class="section__text__p2">Software Engineer
+        </p>
+        <div class="btn-container">
+          <button
+            class="btn btn-color-2"
+            onclick="window.open('./assets/lakshay-resume.pdf')"
+          >
+            Download CV
+          </button>
+          <button class="btn btn-color-1" onclick="location.href='./#contact'">
+            Contact Info
+          </button>
+        </div>
+        <div id="socials-container">
+          <img
+            src="./assets/linkedin.png"
+            alt="My LinkedIn profile"
+            class="icon"
+            onclick="location.href='https://www.linkedin.com/in/lakshayjainfzr/'"
+          />
+          <img
+            src="./assets/github.png"
+            alt="My Github profile"
+            class="icon"
+            onclick="location.href='https://github.com/coderlakshayjain/'"
+          />
+        </div>
+      </div>
+    </section>
+    <section id="about">
+      <p class="section__text__p1">Get To Know More</p>
+      <h1 class="title">About Me</h1>
+      <div class="section-container">
+        <div class="section__pic-container">
+          <img
+            src="./assets/profile.jpg"
+            alt="Profile picture"
+            class="about-pic"
+          />
+        </div>
+        <div class="about-details-container">
+          <div class="about-containers">
+            <div class="details-container">
+              <img
+                src="./assets/experience.png"
+                alt="Experience icon"
+                class="icon"
+              />
+              <h3>Experience</h3>
+              <p>2+ years <br />Software Engineer</p>
+            </div>
+            <div class="details-container">
+              <img
+                src="./assets/education.png"
+                alt="Education icon"
+                class="icon"
+              />
+              <h3>Education</h3>
+              <p>Bachelor of Technology<br />Computer Science Engingeering</p>
+            </div>
+          </div>
+          <div class="text-container">
+            <p>
+              Hi, I’m Lakshay! I thrive on challenges, creativity, and collaboration. With a solid foundation in tech, I’ve been actively involved in numerous initiatives that push the boundaries of innovation while building strong, supportive teams. My journey has been a mix of learning, leading, and growing through diverse experiences whether it’s organizing impactful events, contributing to projects, or helping teams succeed.
+            </p>
+            <br>
+            <p>I’m driven by the idea that technology, when paired with the right mindset and teamwork, has the potential to create positive change.
+            </p>
+          </div>
+        </div>
+      </div>
+      <img
+        src="./assets/arrow.png"
+        alt="Arrow icon"
+        class="icon arrow"
+        onclick="location.href='./#experience'"
+      />
+    </section>
+    <section id="experience">
+      <p class="section__text__p1">Explore My</p>
+      <h1 class="title">Experience</h1>
+      <div class="experience-details-container">
+        <div class="about-containers">
+          <div class="details-container">
+            <h2 class="experience-sub-title">Languages</h2>
+            <div class="article-container">
+              <article>
+                <img
+                  src="./assets/checkmark.png"
+                  alt="Experience icon"
+                  class="icon"
+                />
+                <div>
+                  <h3>Kotlin</h3>
+                  <p>Experienced</p>
+                </div>
+              </article>
+              <article>
+                <img
+                  src="./assets/checkmark.png"
+                  alt="Experience icon"
+                  class="icon"
+                />
+                <div>
+                  <h3>C/C++</h3>
+                  <p>Experienced</p>
+                </div>
+              </article>
+              <article>
+                <img
+                  src="./assets/checkmark.png"
+                  alt="Experience icon"
+                  class="icon"
+                />
+                <div>
+                  <h3>Flutter</h3>
+                  <p>Intermediate</p>
+                </div>
+              </article>
+
+              <article>
+                <img
+                  src="./assets/checkmark.png"
+                  alt="Experience icon"
+                  class="icon"
+                />
+                <div>
+                  <h3>Python</h3>
+                  <p>Intermediate</p>
+                </div>
+              </article>
+              <article>
+                <img
+                  src="./assets/checkmark.png"
+                  alt="Experience icon"
+                  class="icon"
+                />
+                <div>
+                  <h3>Material UI</h3>
+                  <p>Intermediate</p>
+                </div>
+              </article>
+            </div>
+          </div>
+          <div class="details-container">
+            <h2 class="experience-sub-title">Technologies</h2>
+            <div class="article-container">
+              <article>
+                <img
+                  src="./assets/checkmark.png"
+                  alt="Experience icon"
+                  class="icon"
+                />
+                <div>
+                  <h3>Firebase</h3>
+                  <p>Experienced</p>
+                </div>
+              </article>
+              <article>
+                <img
+                  src="./assets/checkmark.png"
+                  alt="Experience icon"
+                  class="icon"
+                />
+                <div>
+                  <h3>Jetpack Compose</h3>
+                  <p>Intermediate</p>
+                </div>
+              </article>
+              <article>
+                <img
+                  src="./assets/checkmark.png"
+                  alt="Experience icon"
+                  class="icon"
+                />
+                <div>
+                  <h3>SEO</h3>
+                  <p>Intermediate</p>
+                </div>
+              </article>
+              <article>
+                <img
+                  src="./assets/checkmark.png"
+                  alt="Experience icon"
+                  class="icon"
+                />
+                <div>
+                  <h3>Git</h3>
+                  <p>Intermediate</p>
+                </div>
+              </article>
+              <article>
+                <img
+                  src="./assets/checkmark.png"
+                  alt="Experience icon"
+                  class="icon"
+                />
+                <div>
+                  <h3>Google Play</h3>
+                  <p>Intermediate</p>
+                </div>
+              </article>
+              <article>
+                <img
+                  src="./assets/checkmark.png"
+                  alt="Experience icon"
+                  class="icon"
+                />
+                <div>
+                  <h3>Git</h3>
+                  <p>Intermediate</p>
+                </div>
+              </article>
+            </div>
+          </div>
+        </div>
+      </div>
+      <img
+        src="./assets/arrow.png"
+        alt="Arrow icon"
+        class="icon arrow"
+        onclick="location.href='./#projects'"
+      />
+    </section>
+    <section id="projects">
+      <p class="section__text__p1">Browse My Recent</p>
+      <h1 class="title">Projects</h1>
+      <div class="experience-details-container">
+        <div class="about-containers">
+          <div class="details-container color-container">
+            <div class="article-container">
+              <img
+                src="./assets/project-1.png"
+                alt="Project 1"
+                class="project-img"
+              />
+            </div>
+            <h2 class="experience-sub-title project-title">Project One</h2>
+            <div class="btn-container">
+              <button
+                class="btn btn-color-2 project-btn"
+                onclick="location.href='https://github.com/'"
+              >
+                Github
+              </button>
+              <button
+                class="btn btn-color-2 project-btn"
+                onclick="location.href='https://github.com/'"
+              >
+                Live Demo
+              </button>
+            </div>
+          </div>
+          <div class="details-container color-container">
+            <div class="article-container">
+              <img
+                src="./assets/project-2.png"
+                alt="Project 2"
+                class="project-img"
+              />
+            </div>
+            <h2 class="experience-sub-title project-title">Project Two</h2>
+            <div class="btn-container">
+              <button
+                class="btn btn-color-2 project-btn"
+                onclick="location.href='https://github.com/'"
+              >
+                Github
+              </button>
+              <button
+                class="btn btn-color-2 project-btn"
+                onclick="location.href='https://github.com/'"
+              >
+                Live Demo
+              </button>
+            </div>
+          </div>
+          <div class="details-container color-container">
+            <div class="article-container">
+              <img
+                src="./assets/project-3.png"
+                alt="Project 3"
+                class="project-img"
+              />
+            </div>
+            <h2 class="experience-sub-title project-title">Project Three</h2>
+            <div class="btn-container">
+              <button
+                class="btn btn-color-2 project-btn"
+                onclick="location.href='https://github.com/'"
+              >
+                Github
+              </button>
+              <button
+                class="btn btn-color-2 project-btn"
+                onclick="location.href='https://github.com/'"
+              >
+                Live Demo
+              </button>
+            </div>
+          </div>
+        </div>
+      </div>
+      <img
+        src="./assets/arrow.png"
+        alt="Arrow icon"
+        class="icon arrow"
+        onclick="location.href='./#contact'"
+      />
+    </section>
+    <section id="contact">
+      <p class="section__text__p1">Get in Touch</p>
+      <h1 class="title">Contact Me</h1>
+      <div class="contact-info-upper-container">
+        <div class="contact-info-container">
+          <img
+            src="./assets/email.png"
+            alt="Email icon"
+            class="icon contact-icon email-icon"
+          />
+          <p><a href="mailto:lakshayjainfzr@gmail.com">lakshayjainfzr@gmail.com</a></p>
+        </div>
+        <div class="contact-info-container">
+          <img
+            src="./assets/linkedin.png"
+            alt="LinkedIn icon"
+            class="icon contact-icon"
+          />
+          <p><a href="https://www.linkedin.com/in/lakshayjainfzr/">LinkedIn</a></p>
+        </div>
+      </div>
+    </section>
+    <footer>
+      <nav>
+        <div class="nav-links-container">
+          <ul class="nav-links">
+            <li><a href="#about">About</a></li>
+            <li><a href="#experience">Experience</a></li>
+            <li><a href="#projects">Projects</a></li>
+            <li><a href="#contact">Contact</a></li>
+          </ul>
+        </div>
+      </nav>
+      <p>Copyright &#169; 2024 Lakshay Jain. All Rights Reserved.</p>
+    </footer>
+    <script src="script.js"></script>
+  </body>
+</html>
